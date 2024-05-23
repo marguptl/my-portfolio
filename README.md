@@ -1,4 +1,4 @@
-# Team03_PRJ566_Summer-2024(Pets Crew Website)
+# `Pets Crew Website`
 
 Project Overview
 Project Name: Pets Crew Website
