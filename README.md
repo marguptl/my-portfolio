@@ -8,8 +8,8 @@ Project Duration: 2 Semesters
 
 ## Team Members
 
-Mehtab Singh Jagde
-Aryan Tuwar
+Swati Kumari
+Vladyslav Savchyn
 Margil Patel
 Shubh Jani
 Tapan Panjabi
