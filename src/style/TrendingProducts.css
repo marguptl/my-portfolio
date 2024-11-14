@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap'); /* Import the font */
+
+
+.trending-products {
+    padding: 50px 20px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .slick-slider {
+    max-width: 100%;
+  }
+  
+  .slick-list {
+    overflow: hidden;
+  }
+  
+  .product-card {
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    width: 50px; /* Fixed width for uniformity */
+    height: 400px; /* Fixed height for uniformity */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .product-image {
+    width: 70%;  /* Ensure image takes up full width of container */
+    height: 200px; /* Fixed height for all images */
+    object-fit: cover; /* Maintain aspect ratio, crop if necessary */
+    border-radius: 10px;
+    align-items: center;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  h3 {
+    color: purple;
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  p {
+    font-size: 1rem;
+    margin: 10px 0;
+  }
+  
+  .buy-now {
+    background-color: #800080;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .slick-prev:before, .slick-next:before {
+    color: purple;
+  }
+  

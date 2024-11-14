@@ -1,0 +1,21 @@
+.appointment-section {
+    padding: 50px;
+    text-align: center;
+    background: #f9f9f9;
+  }
+  
+  .appointment-content {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+  }
+  
+  .appointment-btn {
+    background-color: #6a0dad;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+  }
+  
