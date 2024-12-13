@@ -1,7 +1,7 @@
 'use client'
 
 import styled from 'styled-components';
-import { useState, useEffect } from 'react';
+
 
 import Link from 'next/link';
 
@@ -28,10 +28,7 @@ const Portfolio = () => {
       ];
   
   
-  const [isClient, setIsClient] = useState(false);
-    useEffect(() => {
-    setIsClient(true);
-    }, []);
+
 
   return (
     

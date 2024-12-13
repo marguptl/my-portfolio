@@ -10,13 +10,16 @@ import Portfolio from './components/Portfolio';
 import { useState, useEffect } from 'react'
 import Experience from './components/Experience';
 import Contact from './components/Contact';
-
+import ProjectDetails from './components/ProjectDetails';
 
 export default function App({ Component, pageProps }) {
   const [isClient, setIsClient] = useState(false)
   useEffect(() => {
     setIsClient(true)
-  }, [])
+  }, []);
+
+  if (!isClient) return null; // Avoid rendering on the server side
+  
   return (
     <>
       <GlobalStyle />
@@ -24,7 +27,12 @@ export default function App({ Component, pageProps }) {
       <Header />
       <Hero />
       <Skills />
-      <Portfolio />
+      <Router>
+      <Routes>
+        <Route path="/" element={<Portfolio />} />
+        <Route path="/project/:id" element={<ProjectDetails />} />
+      </Routes>
+    </Router>
       <Experience />
       <Contact />
     </div>

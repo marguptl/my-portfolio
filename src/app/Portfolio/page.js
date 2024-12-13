@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import styled from 'styled-components';
 import { useState, useEffect } from 'react';
@@ -29,7 +29,7 @@ const Portfolio = () => {
         {
             id: 4,
             title: 'Share Prompt',
-            image: '/images/share.png',
+            image: '/images/sharep.png',
             link: '/SharePrompt',
         },
       ];
