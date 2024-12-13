@@ -4,20 +4,20 @@ import styled from 'styled-components';
 import Link from 'next/link';
 
 const Header = () => {
-  return (
-    <Nav>
-      <Logo>
-        <span>M</span>
-      </Logo>
-      <Link>
-        <a href="/">Home</a>
-        <a href="/Experience">Experience</a>
-        <a href="/Porfolio">Portfolio</a>
-        <a href="/About">About</a>
-      </Link>
-    </Nav>
-  );
-};
+    return (
+      <Nav>
+        <Logo>
+          <span>M</span>
+        </Logo>
+        <LinksContainer>
+          <Link href="/">Home</Link>
+          <Link href="/Experience">Experience</Link>
+          <Link href="/Portfolio">Portfolio</Link>
+          <Link href="/About">About</Link>
+        </LinksContainer>
+      </Nav>
+    );
+  };
 
 export default Header;
 
@@ -52,7 +52,7 @@ const Logo = styled.div`
   }
 `;
 
-const NavLinks = styled.div`
+const LinksContainer = styled.div`
   display: flex;
   gap: 2rem;
 

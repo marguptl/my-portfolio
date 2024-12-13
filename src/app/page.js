@@ -10,7 +10,7 @@ import Portfolio from './components/Portfolio';
 import { useState, useEffect } from 'react'
 import Experience from './components/Experience';
 import Contact from './components/Contact';
-import ProjectDetails from './components/ProjectDetails';
+
 
 export default function App({ Component, pageProps }) {
   const [isClient, setIsClient] = useState(false)
@@ -24,12 +24,7 @@ export default function App({ Component, pageProps }) {
       <Header />
       <Hero />
       <Skills />
-      <Router>
-      <Routes>
-        <Route path="/" element={<Portfolio />} />
-        <Route path="/project/:id" element={<ProjectDetails />} />
-      </Routes>
-    </Router>
+      <Portfolio />
       <Experience />
       <Contact />
     </div>
