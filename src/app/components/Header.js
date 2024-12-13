@@ -1,6 +1,7 @@
 "use client"
 
 import styled from 'styled-components';
+import Link from 'next/link';
 
 const Header = () => {
   return (
@@ -8,12 +9,12 @@ const Header = () => {
       <Logo>
         <span>M</span>
       </Logo>
-      <NavLinks>
+      <Link>
         <a href="/">Home</a>
         <a href="/Experience">Experience</a>
         <a href="/Porfolio">Portfolio</a>
         <a href="/About">About</a>
-      </NavLinks>
+      </Link>
     </Nav>
   );
 };

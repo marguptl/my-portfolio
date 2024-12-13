@@ -7,7 +7,7 @@ const Hero = () => {
     <HeroSection>
       <Content>
         <Title>
-          I'M <Highlight>MARGIL</Highlight> PATEL<span></span>
+          I AM <Highlight>MARGIL</Highlight> PATEL<span></span>
         </Title>
         <Subtitle>UX/UI Designer & Web Developer</Subtitle>
       </Content>
