@@ -32,6 +32,12 @@ const Portfolio = () => {
             image: '/images/sharep.png',
             link: '/SharePrompt',
         },
+        {
+            id: 5,
+            title: 'Gaming Website Clone',
+            image: '/images/gaming.png',
+            link: '/GamingWebsite',
+        }
       ];
   
   
