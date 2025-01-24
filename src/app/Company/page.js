@@ -113,7 +113,7 @@ const GridPage = styled.div`
 
 const GridContainer = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(390px, 1fr));
   gap: 20px;
   width: 100%;
   max-width: 1200px;

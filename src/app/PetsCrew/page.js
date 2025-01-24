@@ -23,9 +23,9 @@ const Project1 = () => {
           <BackButton onClick={() => router.back()}>← Back</BackButton>
           <Title>Pets Crew Website</Title>
           <Description>
-          The Java-based Android Unit Converter App, developed in Android Studio, is a versatile and user-friendly application designed to cater to both academic and everyday needs. It supports multiple conversion categories, including length, weight, temperature, and volume, allowing users to effortlessly switch between units such as meters and miles, kilograms and pounds, Celsius and Fahrenheit, and liters and gallons. The app features a clean, intuitive interface for seamless navigation, delivering real-time, highly accurate results through robust Java algorithms. Built with input validation and error handling, it ensures reliable operation and prevents invalid entries. Optimized for performance, the lightweight app is suitable for devices with limited resources, making it ideal for students needing precise conversions for homework, professionals handling technical calculations, or everyday users requiring quick measurements for tasks like cooking or travel planning.          </Description>
+          Developed a comprehensive platform connecting pet owners and service providers, fostering a community of pet enthusiasts. The website facilitates service bookings, pet product browsing, and information sharing, offering an all-in-one solution for pet care needs.</Description>
           <GitHubLink href="https://prj-666-team02.vercel.app/" target="_blank" rel="noopener noreferrer">
-            View on GitHub
+            View website
           </GitHubLink>
           <GridPage>
         <GridContainer>
@@ -112,7 +112,7 @@ const GridPage = styled.div`
 
 const GridContainer = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(390px, 1fr));
   gap: 20px;
   width: 100%;
   max-width: 1200px;
